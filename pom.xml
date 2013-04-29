@@ -15,7 +15,7 @@
 
     <groupId>org.phpmaven.sites</groupId>
     <artifactId>pear-java-site</artifactId>
-    <version>0.1.1-SNAPSHOT</version>
+    <version>0.1.1</version>
     <packaging>pom</packaging>
 
     <name>${project.version}</name>
@@ -37,6 +37,7 @@
     <scm>
 	  <connection>scm:git:git://github.com/neutrico/pear-java.git</connection>
       <developerConnection>scm:git:ssh://git@github.com/neutrico/pear-java.git</developerConnection>
+    <tag>pear-java-site-0.1.1</tag>
   </scm>
     
     <modules>
