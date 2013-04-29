@@ -27,18 +27,16 @@
     <url>${phpmavenRootUrl}/${phpmavenTagType}/${phpmavenTagName}/</url>
     
     <distributionManagement>
-        <site>
+<!--        <site>
             <id>upload-${phpmavenSitesId}</id>
             <name>${phpmavenSitesName}</name>
             <url>${phpmavenSitesUploadUrl}/${phpmavenTagType}/${phpmavenTagName}/</url>
-        </site>
+        </site> -->
     </distributionManagement>
     
     <scm>
-        <connection>${phpmavenRootScmUrl}</connection>
-        <developerConnection>${phpmavenRootScmUrl}</developerConnection>
-        <url>${phpmavenRootScmUrlWeb}</url>
-      <tag>pear-java-site-0.1.0</tag>
+	  <connection>scm:git:git://github.com/neutrico/pear-java.git</connection>
+      <developerConnection>scm:git:ssh://git@github.com/neutrico/pear-java.git</developerConnection>
   </scm>
     
     <modules>
